@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Delicious Bites</h1>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#menu" class="nav-link">Menu</a>
+                    <a href="#chefs" class="nav-link">Chefs</a>
+                    <a href="#reservation" class="nav-link">Reservation</a>
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                </div>
+                <button class="reservation-btn">Reserve Table</button>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Delicious Bites</h1>
+            <p>Experience the finest cuisine in a cozy atmosphere</p>
+            <button class="cta-btn">View Menu</button>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Delicious food">
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-categories">
+                <div class="category">
+                    <h3>Appetizers</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <h4>Bruschetta</h4>
+                            <p>Toasted bread topped with tomatoes, garlic, and basil</p>
+                            <span class="price">$8.99</span>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Calamari Rings</h4>
+                            <p>Crispy fried squid rings with marinara sauce</p>
+                            <span class="price">$12.99</span>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Stuffed Mushrooms</h4>
+                            <p>Mushrooms filled with cheese and herbs</p>
+                            <span class="price">$10.99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="category">
+                    <h3>Main Course</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <h4>Grilled Salmon</h4>
+                            <p>Fresh salmon with lemon herb sauce</p>
+                            <span class="price">$24.99</span>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Beef Tenderloin</h4>
+                            <p>Premium cut beef with red wine reduction</p>
+                            <span class="price">$32.99</span>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Chicken Parmesan</h4>
+                            <p>Breaded chicken with marinara and mozzarella</p>
+                            <span class="price">$18.99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="category">
+                    <h3>Desserts</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <h4>Tiramisu</h4>
+                            <p>Classic Italian dessert with coffee and mascarpone</p>
+                            <span class="price">$7.99</span>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Chocolate Lava Cake</h4>
+                            <p>Warm chocolate cake with molten center</p>
+                            <span class="price">$8.99</span>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Cheesecake</h4>
+                            <p>Creamy cheesecake with berry compote</p>
+                            <span class="price">$6.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chef Section -->
+    <section id="chefs" class="chefs">
+        <div class="container">
+            <h2>Meet Our Chefs</h2>
+            <div class="chef-cards">
+                <div class="chef-card">
+                    <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=768&q=80" alt="Chef Maria">
+                    <h3>Maria Rodriguez</h3>
+                    <p>Head Chef</p>
+                    <p>With over 15 years of experience, Maria brings authentic flavors to every dish.</p>
+                </div>
+                <div class="chef-card">
+                    <img src="https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Chef John">
+                    <h3>John Smith</h3>
+                    <p>Sous Chef</p>
+                    <p>John specializes in innovative fusion cuisine and pastry arts.</p>
+                </div>
+                <div class="chef-card">
+                    <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Chef Lisa">
+                    <h3>Lisa Chen</h3>
+                    <p>Pastry Chef</p>
+                    <p>Lisa creates exquisite desserts that are both beautiful and delicious.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation">
+        <div class="container">
+            <h2>Make a Reservation</h2>
+            <form class="reservation-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+                    <select id="guests" name="guests" required>
+                        <option value="">Select</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6+">6+</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Time</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Special Requests</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Reserve Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-cards">
+                <div class="testimonial-card">
+                    <p>"The food was absolutely amazing! Every dish was perfectly prepared and the service was excellent."</p>
+                    <h4>- Sarah Johnson</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Delicious Bites has become our go-to restaurant. The atmosphere is cozy and the flavors are incredible."</p>
+                    <h4>- Michael Brown</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"I had the best dining experience here. The chef's special was outstanding and the staff was very friendly."</p>
+                    <h4>- Emily Davis</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Delicious Bites</h3>
+                    <p>Experience fine dining at its best</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Main Street, City, State 12345</p>
+                    <p><i class="fas fa-phone"></i> +8801962434901</p>
+                    <p><i class="fas fa-envelope"></i> Quyum52526@gmail.com.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Delicious Bites. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
